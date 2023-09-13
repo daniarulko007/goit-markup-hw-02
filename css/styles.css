@@ -5,7 +5,7 @@
   --secondary-font: "Raleway", sans-serif;
 
   /*!COLORS*/
-  --iris-cl: #4d59e5;
+  --iris-cl: #4D5AE5;
   --ocean-cl: #404bbf;
   --navy-blue-cl: #2e2f42;
   --green-cl: #31d0aa;
@@ -38,20 +38,9 @@ button {
 .list {
   list-style-type: none;
 }
-/*reset end*/
+/*reset end
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+}*/
 
 /*!COMPONENTS STYLES*/
 
@@ -67,10 +56,9 @@ button {
   color: var(--iris-cl);
   font-family: var(--secondary-font);
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em; /*0.54/18*/
-  width: 44px;
   text-transform: uppercase;
   
 }
@@ -89,6 +77,8 @@ button {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
+.header-menu-link:hover {color: var(--ocean-cl);}
+.header-menu-link:focus {color: var(--ocean-cl);}
 
 .contacts-data {
 }
@@ -102,9 +92,14 @@ button {
   color: var(--slate-cl);
   font-size: 16px;
   font-weight: 400;
+  font-style: normal;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
+
+.contacts-link:hover {color: var(--ocean-cl);}
+.contacts-link:focus {color: var(--ocean-cl);}
+
 /*!MAIN*/
 /*?HERO*/
 .hero {
@@ -120,20 +115,22 @@ button {
 }
 .hero-btn {
   color: var(--white-cl);
+  background-color: var(--iris-cl);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
-  letter-spacing: -0.04em;
+  letter-spacing: 0.04em;
 }
-.btn {
+/*.btn {
   background-color: var(--iris-cl);
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
+}*/
+
 .btn:hover,
 .btn:focus {
   color: var(--white-cl);
-  background-color: var(--iris-cl);
+  background-color: var(--ocean-cl);
 }
 
 /*?ADVANTAGES*/
@@ -165,7 +162,7 @@ button {
 
 /*?WORK*/
 .work {
-  background-color: var(--white-cl);
+  background-color: var(--cloud--cl);
 }
 .work-title {
   color: var(--navy-blue-cl);
@@ -179,6 +176,7 @@ button {
 .title {
 }
 .work-list {
+  background: var(--white-cl);
 }
 .list {
 }
@@ -231,18 +229,17 @@ button {
   background: var(--navy-blue-cl);
 }
 .footer-logo {
-  color: var(--cloud--cl);
+  color: var(--iris-cl);
   font-family: var(--secondary-font);
   font-size: 18px;
-  font-weight: 800;
-  line-height: 1.16; /* 116.667% */
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em; /*0.54/18*/
-  width: 44px;
   text-transform: uppercase;
   
 }
-.footer-logo-iris {
-  color: var(--iris-cl);
+.footer-logo-cloud {
+  color: var(--cloud--cl);
 }
 .footer-text {
   color: var(--cloud--cl);
