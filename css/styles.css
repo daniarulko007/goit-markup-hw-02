@@ -81,6 +81,7 @@ button {
 .header-menu-link:focus {color: var(--ocean-cl);}
 
 .contacts-data {
+font-style: normal;
 }
 .contacts-list {
 }
@@ -92,7 +93,6 @@ button {
   color: var(--slate-cl);
   font-size: 16px;
   font-weight: 400;
-  font-style: normal;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
@@ -162,7 +162,7 @@ button {
 
 /*?WORK*/
 .work {
-  background-color: var(--cloud--cl);
+  background-color: var(--white-cl);
 }
 .work-title {
   color: var(--navy-blue-cl);
@@ -201,6 +201,7 @@ button {
 .title {
 }
 .team-list {
+   background-color: var(--white-cl);
 }
 .list {
 }
