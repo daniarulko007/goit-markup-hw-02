@@ -72,7 +72,7 @@ button {
   letter-spacing: 0.03em; /*0.54/18*/
   width: 44px;
   text-transform: uppercase;
-  text-decoration: none;
+  
 }
 .header-logo-navyblue {
   color: var(--navy-blue-cl);
@@ -239,6 +239,7 @@ button {
   letter-spacing: 0.03em; /*0.54/18*/
   width: 44px;
   text-transform: uppercase;
+  
 }
 .footer-logo-iris {
   color: var(--iris-cl);
