@@ -5,7 +5,7 @@
   --secondary-font: "Raleway", sans-serif;
 
   /*!COLORS*/
-  --iris-cl: #4D5AE5;
+  --iris-cl: #4d5ae5;
   --ocean-cl: #404bbf;
   --navy-blue-cl: #2e2f42;
   --green-cl: #31d0aa;
@@ -60,7 +60,6 @@ button {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em; /*0.54/18*/
   text-transform: uppercase;
-  
 }
 .header-logo-navyblue {
   color: var(--navy-blue-cl);
@@ -77,11 +76,15 @@ button {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
-.header-menu-link:hover {color: var(--ocean-cl);}
-.header-menu-link:focus {color: var(--ocean-cl);}
+.header-menu-link:hover {
+  color: var(--ocean-cl);
+}
+.header-menu-link:focus {
+  color: var(--ocean-cl);
+}
 
 .contacts-data {
-font-style: normal;
+  font-style: normal;
 }
 .contacts-list {
 }
@@ -97,8 +100,12 @@ font-style: normal;
   letter-spacing: 0.02em;
 }
 
-.contacts-link:hover {color: var(--ocean-cl);}
-.contacts-link:focus {color: var(--ocean-cl);}
+.contacts-link:hover {
+  color: var(--ocean-cl);
+}
+.contacts-link:focus {
+  color: var(--ocean-cl);
+}
 
 /*!MAIN*/
 /*?HERO*/
@@ -176,7 +183,7 @@ font-style: normal;
 .title {
 }
 .team-list {
-  background-color: var(--white-cl);
+  background-color: #FFFFFF;
 }
 .list {
 }
@@ -215,20 +222,19 @@ font-style: normal;
 .project-card {
 }
 .project-name {
-color: var(--navy-blue-cl)
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2; /* 120% */
-letter-spacing: 0.02em;
+  color: var(--navy-blue-cl);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
 }
 .project-position {
-color:var(--slate-cl)
-font-size: 16px;
-font-weight: 400;
-line-height: 1.5; /* 150% */
-letter-spacing: 0.02em;
+  color: var(--slate-cl);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
 }
-
 
 /*!FOOTER*/
 .footer {
@@ -242,7 +248,6 @@ letter-spacing: 0.02em;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em; /*0.54/18*/
   text-transform: uppercase;
-  
 }
 .footer-logo-cloud {
   color: var(--cloud--cl);
