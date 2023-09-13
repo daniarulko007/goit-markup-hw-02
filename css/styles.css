@@ -183,7 +183,7 @@ button {
 .title {
 }
 .team-list {
-  background-color: #FFFFFF;
+  background-color: var(--white-cl);
 }
 .list {
 }
