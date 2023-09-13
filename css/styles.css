@@ -23,7 +23,8 @@
 /*reset start*/
 body {
   font-family: var(--primary-font);
-  color: var(--navy-blue-cl);
+  color: var(--slate-cl);
+  background-color: var(--white-cl);
 }
 button {
   font-family: inherit;
@@ -63,17 +64,18 @@ button {
 .navigation {
 }
 .header-logo {
-  color: var(--navy-blue-cl);
+  color: var(--iris-cl);
   font-family: var(--secondary-font);
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em; /*0.54/18*/
   width: 44px;
   text-transform: uppercase;
+  text-decoration: none;
 }
-.header-logo-iris {
-  color: var(--iris-cl);
+.header-logo-navyblue {
+  color: var(--navy-blue-cl);
 }
 
 .header-menu-list {
@@ -86,8 +88,6 @@ button {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-}
-.link {
 }
 
 .contacts-data {
