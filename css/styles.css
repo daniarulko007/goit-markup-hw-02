@@ -160,31 +160,6 @@ font-style: normal;
   letter-spacing: 0.02em;
 }
 
-/*?WORK*/
-.work {
-  background-color: var(--white-cl);
-}
-.work-title {
-  color: var(--navy-blue-cl);
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11; /* 111.111% */
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
-.title {
-}
-.work-list {
-  background: var(--white-cl);
-}
-.list {
-}
-.work-item {
-}
-.work-img {
-}
-
 /*?TEAM*/
 .team {
   background-color: var(--cloud--cl);
@@ -201,7 +176,7 @@ font-style: normal;
 .title {
 }
 .team-list {
-   background-color: var(--white-cl);
+  background-color: var(--white-cl);
 }
 .list {
 }
@@ -225,47 +200,8 @@ font-style: normal;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
-/*!FOOTER*/
-.footer {
-  background: var(--navy-blue-cl);
-}
-.footer-logo {
-  color: var(--iris-cl);
-  font-family: var(--secondary-font);
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17; /* 116.667% */
-  letter-spacing: 0.03em; /*0.54/18*/
-  text-transform: uppercase;
-  
-}
-.footer-logo-cloud {
-  color: var(--cloud--cl);
-}
-.footer-text {
-  color: var(--cloud--cl);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.02em;
-}
 
-/*!PORTFOLIO*/
-/*?FILTER*/
-.filter {
-}
-.visually-hidden {
-}
-.filter-btn {
-  color: var(--iris-cl);
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.04em;
-}
-/*?PROJECT CARD*/
+/*?PORTFOLIO*/
 .project {
 }
 .visually-hidden {
@@ -291,4 +227,31 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.02em;
+}
+
+
+/*!FOOTER*/
+.footer {
+  background: var(--navy-blue-cl);
+}
+.footer-logo {
+  color: var(--iris-cl);
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em; /*0.54/18*/
+  text-transform: uppercase;
+  
+}
+.footer-logo-cloud {
+  color: var(--cloud--cl);
+}
+.footer-text {
+  color: var(--cloud--cl);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
 }
