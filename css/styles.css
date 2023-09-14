@@ -28,7 +28,6 @@ body {
 }
 button {
   font-family: inherit;
-  cursor: pointer;
 }
 .link {
   text-decoration: none;
@@ -84,7 +83,6 @@ button {
 }
 
 .contacts-data {
-  font-style: normal;
 }
 .contacts-list {
 }
@@ -95,7 +93,6 @@ button {
 .contacts-link {
   color: var(--slate-cl);
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
@@ -159,7 +156,6 @@ button {
 .advantages-item-text {
   color: var(--slate-cl);
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
@@ -200,7 +196,6 @@ button {
   color: var(--slate-cl);
   text-align: center;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
@@ -228,7 +223,6 @@ button {
 .project-position {
   color: var(--slate-cl);
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
@@ -253,7 +247,6 @@ button {
   color: var(--cloud--cl);
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
