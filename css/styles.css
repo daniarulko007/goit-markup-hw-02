@@ -183,11 +183,11 @@ button {
 .title {
 }
 .team-list {
-  background-color: var(--white-cl);
 }
 .list {
 }
 .team-item {
+  background-color: var(--white-cl);
 }
 .team-avatar {
 }
