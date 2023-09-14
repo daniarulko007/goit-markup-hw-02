@@ -83,6 +83,7 @@ button {
 }
 
 .contacts-data {
+  font-style: normal;
 }
 .contacts-list {
 }
@@ -124,6 +125,7 @@ button {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .btn {
 }
