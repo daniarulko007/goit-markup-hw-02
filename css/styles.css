@@ -128,11 +128,8 @@ button {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
 }
-/*.btn {
-  background-color: var(--iris-cl);
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}*/
+.btn {
+}
 
 .btn:hover,
 .btn:focus {
