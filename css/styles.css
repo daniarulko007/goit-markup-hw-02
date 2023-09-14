@@ -55,7 +55,6 @@ button {
   color: var(--iris-cl);
   font-family: var(--secondary-font);
   font-size: 18px;
-  font-weight: 700;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em; /*0.54/18*/
   text-transform: uppercase;
@@ -114,7 +113,6 @@ button {
   color: var(--white-cl);
   text-align: center;
   font-size: 56px;
-  font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
 }
@@ -170,7 +168,6 @@ button {
   color: var(--navy-blue-cl);
   text-align: center;
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -237,7 +234,6 @@ button {
   color: var(--iris-cl);
   font-family: var(--secondary-font);
   font-size: 18px;
-  font-weight: 700;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em; /*0.54/18*/
   text-transform: uppercase;
