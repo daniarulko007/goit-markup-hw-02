@@ -55,6 +55,7 @@ button {
   color: var(--iris-cl);
   font-family: var(--secondary-font);
   font-size: 18px;
+  font-weight: 700;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em; /*0.54/18*/
   text-transform: uppercase;
@@ -234,6 +235,7 @@ button {
   color: var(--iris-cl);
   font-family: var(--secondary-font);
   font-size: 18px;
+  font-weight: 700;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em; /*0.54/18*/
   text-transform: uppercase;
